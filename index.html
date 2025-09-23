@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="refresh" content="73000" />
+    <link rel="Web icon" type="png" href="thermo.png" />
+    <title>🌡️Temprature converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--celsius section-->
+    <div class="container">
+      <h1 class="header">Temprature Converter</h1>
+      <div class="temprature-container">
+        <label for="celsius">Celsius(°C):</label>
+        <input
+          name="celsius"
+          id="celsius"
+          placeholder="Enter Temprature(°C)"
+          class="input"
+          type="number"
+          onchange="changeTemp(event)"
+        />
+      </div>
+      <!--Fahrenheit Section-->
+      <div class="temprature-container">
+        <label for="Fahrenheit">Fahrenheit(°F):</label>
+        <input
+          name="fahrenheit"
+          id="fahrenheit"
+          placeholder="Enter Temprature(°F)"
+          class="input"
+          onchange="changeTemp(event)"
+          type="number"
+        />
+      </div>
+      <!--Kelvin Section-->
+      <div class="temprature-container">
+        <label for="kelvin">Kelvin(K):</label>
+        <input
+          name="kelvin"
+          id="kelvin"
+          placeholder="Enter Temprature(K)"
+          class="input"
+          onchange="changeTemp(event)"
+          type="number"
+        />
+      </div>
+    </div>
+    <!--Javascript Source-->
+    <script src="index.js"></script>
+  </body>
+</html>
