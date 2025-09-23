@@ -1,5 +1,5 @@
 # 🌡️ Digital Multiscale Thermometer
-A simple web-based thermometer that converts Celsius to Farenheit to Kelvin and vice-versa
+A simple web-based thermometer that converts Celsius to Fahrenheit to Kelvin and vice-versa
 ## Features
 - Convert between **Celsius, Fahrenheit, Kelvin**
 - Auto-updates values in real-time
